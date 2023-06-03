@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head >
+      <link rel="stylesheet" href="index.css">
+        <title>booleans.com</title>
+    </head>
+    <body cl>
+      <h3 class="game">Game 1</h3>
+
+      <center>
+    <img class="rock" src="rock.jpg" onclick="
+        compmove='';
+        result='';
+        const randomnumber =Math.random();
+          if (randomnumber <=1/3)
+              {compmove='rock'
+              result='Tie!'}
+          if (randomnumber <=2/3 && randomnumber >=1/3)
+              {compmove='paper'
+              result='You lose!'}
+          else if (randomnumber >=2/3)
+             {compmove='Scissors'
+              result='You win!'} 
+             
+             alert(`You picked rock.The computer picked ${compmove}.${result}`)
+             ">
+             
+  
+      <img class="paper" src="paper.JPG" onclick="
+             compmove='';
+             result='';
+            const randomnumber =Math.random();
+        if (randomnumber <=1/3)
+                     {compmove='rock'
+                     result='You win!'}
+         if (randomnumber <=2/3 && randomnumber >=1/3)
+                     {compmove='paper'
+                     result='Tie!'}
+          else if (randomnumber >=2/3)
+                    {compmove='Scissors'
+                    result='You lose!'} 
+
+          alert(`You picked paper.The computer picked ${compmove}.${result}`)
+                    ">
+            
+
+     <img class="scissors" src="scissors.jpg" onclick="
+      compmove='';
+      result='';
+     const randomnumber =Math.random();
+     if (randomnumber <=1/3)
+              {compmove='rock'
+              result='You lose!'}
+          if (randomnumber <=2/3 && randomnumber >=1/3)
+              {compmove='paper'
+              result='You win!'}
+          else if (randomnumber >=2/3)
+             {compmove='Scissors'
+             result='Tie!'} 
+
+             alert(`You picked scissors.The computer picked ${compmove}.${result}`)
+             ">
+
+
+          </center>
+
+
+        <script>
+               
+        </script>
+    </body>
+</html> 
