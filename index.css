@@ -6,8 +6,12 @@
   margin-right: 20px;
   margin-left: 20px;
   transition:1s;
+  
 }
- .rock, .paper, .scissors:hover{ cursor: pointer;}
+ .rock, .paper, .scissors:hover{ 
+   cursor: pointer;
+   width:150px;
+  }
 
 .game{
   color:rgb(0, 204, 255);
