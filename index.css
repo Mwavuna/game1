@@ -5,6 +5,7 @@
   display: inline block;
   margin-right: 20px;
   margin-left: 20px;
+  transition:1s;
 }
  .rock, .paper, .scissors:hover{ cursor: pointer;}
 
