@@ -11,6 +11,8 @@
  .rock, .paper, .scissors:hover{ 
    cursor: pointer;
    width:150px;
+   height:150px;
+   border-radius:90px;
   }
 
 .game{
