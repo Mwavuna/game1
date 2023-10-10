@@ -6,7 +6,10 @@
   margin-right: 20px;
   margin-left: 20px;
   transition:1s;
-  
+  .rock,.paper,. scissors:active{
+    height:150px;
+    weight:150px;
+    border-radius:80;
 }
  .rock, .paper, .scissors:hover{ 
    cursor: pointer;
